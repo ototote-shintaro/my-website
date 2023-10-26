@@ -25,7 +25,9 @@ const Header = () => {
 					<li className='px-6 text-center'>biography</li>
 					<li className='px-6 text-center'>discography</li>
 					<li className='px-6 text-center'>video</li>
-					<li className='px-6 text-center'>contact</li>
+					<li className='px-6 text-center'>
+						<Link href='/contact'>contact</Link>
+					</li>
 				</ul>
 			</div>
 			<div className='md:hidden'>
@@ -49,11 +51,15 @@ const Header = () => {
 							: 'block'
 					}>
 						<li>home</li>
-						<li>news</li>
+						<li>
+							<Link onClick={handleMenuClose} href='/article'>news</Link>
+						</li>
 						<li>biography</li>
 						<li>discography</li>
 						<li>video</li>
-						<li>contact</li>
+						<li>
+							<Link onClick={handleMenuClose} href='/contact'>contact</Link>
+						</li>
 					</ul>
 				</nav>
 			</div>
