@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   const language = 'ja';
   return (
-    <html lang="ja">
+    <html lang='ja'>
       <body className={language === 'ja' ? notoSerif.className : robot.className}>
         <div className='flex flex-col min-h-screen max-w-full'>
           <Header />
