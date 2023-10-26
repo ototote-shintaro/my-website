@@ -1,5 +1,6 @@
 import React from 'react'
 import { Article } from '../utils/types'
+import ArticleCard from './ArticleCard'
 
 type ArticlesListProps = {
 	articles: Article[]
@@ -7,12 +8,10 @@ type ArticlesListProps = {
 
 const ArticlesList = ({articles}: ArticlesListProps) => {
 	return (
-		<div>
-			<ul>
+		<div className='md:grid md:grid-cols-3 md:mx-[10%]'>
       {articles.map((article) => (
-        <li key={article.id}>{article.title}</li>
+        <ArticleCard article={article} key={article.id} />
       ))}
-    	</ul>
 		</div>
 	)
 }
