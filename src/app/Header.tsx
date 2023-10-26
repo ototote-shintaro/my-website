@@ -23,7 +23,9 @@ const Header = () => {
 						<Link href='/article'>news</Link>
 					</li>
 					<li className='text-center'>biography</li>
-					<li className='text-center'>discography</li>
+					<li className='text-center'>
+						<Link href='/discography'>discography</Link>
+					</li>
 					<li className='text-center'>
 						<Link href='/video'>video</Link>
 					</li>
@@ -57,7 +59,9 @@ const Header = () => {
 							<Link onClick={handleMenuClose} href='/article'>news</Link>
 						</li>
 						<li>biography</li>
-						<li>discography</li>
+						<li>
+							<Link onClick={handleMenuClose} href='/discography'>discography</Link>
+						</li>
 						<li>
 							<Link onClick={handleMenuClose} href='/video'>video</Link>
 						</li>

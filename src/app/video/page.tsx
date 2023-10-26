@@ -5,6 +5,7 @@ import YouTube from 'react-youtube';
 const page = () => {
 	return (
 		<div>
+			<title>Video</title>
 			<h1 className='text-title'>Video</h1>
 			<div className='md:grid md:grid-cols-2 md:px-[5%]'>
 				<Content videoId='QLeJ5uNi-_c' label='Kanako Fukui + Shintaro Tanaka / Improvisation Nov. 14' />
