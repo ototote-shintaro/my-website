@@ -23,6 +23,6 @@ body {
 
 @layer base {
   .text-title {
-    @apply text-center text-2xl py-8;
+    @apply text-center text-2xl py-4;
   }
 }

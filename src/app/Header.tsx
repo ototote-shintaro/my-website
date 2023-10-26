@@ -15,27 +15,32 @@ const Header = () => {
 
 	return (
 		<header className='my-8'>
+			{/* PC Menu */}
 			<div className='hidden md:block'>
 				<h1 className='text-xl font-bold text-center py-4'>Shintaro Tanaka</h1>
 				<ul className='flex justify-center py-4 gap-10'>
-					<li className='text-center'>home</li>
-					<li className='text-center'>
+					<li>home</li>
+					<li>
 						<Link href='/article'>news</Link>
 					</li>
-					<li className='text-center'>
+					<li>
+						<Link href='/concert'>concert</Link>
+					</li>
+					<li>
 						<Link href='/biography'>biography</Link>
 					</li>
-					<li className='text-center'>
+					<li>
 						<Link href='/discography'>discography</Link>
 					</li>
-					<li className='text-center'>
+					<li>
 						<Link href='/video'>video</Link>
 					</li>
-					<li className='text-center'>
+					<li>
 						<Link href='/contact'>contact</Link>
 					</li>
 				</ul>
 			</div>
+			{/* SP Menu */}
 			<div className='md:hidden'>
 				<div className='flex justify-center items-center'>
 					<h1 className='text-xl font-bold z-50'>Shintaro Tanaka</h1>
@@ -59,6 +64,9 @@ const Header = () => {
 						<li>home</li>
 						<li>
 							<Link onClick={handleMenuClose} href='/article'>news</Link>
+						</li>
+						<li>
+							<Link onClick={handleMenuClose} href='/concert'>concert</Link>
 						</li>
 						<li>
 							<Link onClick={handleMenuClose} href='/biography'>biography</Link>
