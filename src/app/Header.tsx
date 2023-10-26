@@ -22,7 +22,9 @@ const Header = () => {
 					<li className='text-center'>
 						<Link href='/article'>news</Link>
 					</li>
-					<li className='text-center'>biography</li>
+					<li className='text-center'>
+						<Link href='/biography'>biography</Link>
+					</li>
 					<li className='text-center'>
 						<Link href='/discography'>discography</Link>
 					</li>
@@ -58,7 +60,9 @@ const Header = () => {
 						<li>
 							<Link onClick={handleMenuClose} href='/article'>news</Link>
 						</li>
-						<li>biography</li>
+						<li>
+							<Link onClick={handleMenuClose} href='/biography'>biography</Link>
+						</li>
 						<li>
 							<Link onClick={handleMenuClose} href='/discography'>discography</Link>
 						</li>
