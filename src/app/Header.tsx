@@ -17,15 +17,17 @@ const Header = () => {
 		<header className='my-8'>
 			<div className='hidden md:block'>
 				<h1 className='text-xl font-bold text-center py-4'>Shintaro Tanaka</h1>
-				<ul className='flex justify-center py-4'>
-					<li className='px-6 text-center'>home</li>
-					<li className='px-6 text-center'>
+				<ul className='flex justify-center py-4 gap-10'>
+					<li className='text-center'>home</li>
+					<li className='text-center'>
 						<Link href='/article'>news</Link>
 					</li>
-					<li className='px-6 text-center'>biography</li>
-					<li className='px-6 text-center'>discography</li>
-					<li className='px-6 text-center'>video</li>
-					<li className='px-6 text-center'>
+					<li className='text-center'>biography</li>
+					<li className='text-center'>discography</li>
+					<li className='text-center'>
+						<Link href='/video'>video</Link>
+					</li>
+					<li className='text-center'>
 						<Link href='/contact'>contact</Link>
 					</li>
 				</ul>
@@ -56,7 +58,9 @@ const Header = () => {
 						</li>
 						<li>biography</li>
 						<li>discography</li>
-						<li>video</li>
+						<li>
+							<Link onClick={handleMenuClose} href='/video'>video</Link>
+						</li>
 						<li>
 							<Link onClick={handleMenuClose} href='/contact'>contact</Link>
 						</li>
