@@ -1,8 +1,6 @@
-// "use client";
 import { headers } from 'next/headers';
 import React from 'react';
 import { Article } from './utils/types';
-import YouTube from 'react-youtube';
 import YoutubeContent from './components/YoutubeContent';
 import ArticlesList from './components/ArticlesList';
 import DiscList from './components/DiscList';
