@@ -17,9 +17,15 @@ const Header = () => {
 		<header className='my-8'>
 			{/* PC Menu */}
 			<div className='hidden md:block'>
-				<h1 className='text-xl font-bold text-center py-4'>Shintaro Tanaka</h1>
+				<h1 className='text-xl font-bold text-center py-4'>
+					<Link href='/'>
+						Shintaro Tanaka
+					</Link>
+				</h1>
 				<ul className='flex justify-center py-4 gap-10'>
-					<li>home</li>
+					<li>
+						<Link href='/'>home</Link>
+					</li>
 					<li>
 						<Link href='/article'>news</Link>
 					</li>
@@ -61,7 +67,9 @@ const Header = () => {
 							? 'flex h-screen justify-center items-center flex-col gap-6 text-lg'
 							: 'block'
 					}>
-						<li>home</li>
+						<li>
+							<Link onClick={handleMenuClose} href='/'>home</Link>
+						</li>
 						<li>
 							<Link onClick={handleMenuClose} href='/article'>news</Link>
 						</li>
