@@ -92,7 +92,7 @@ const CreateConcert = () => {
 				<div className='mb-4'>
 					<label className='text-gray-700 text-sm font-bold mb-2'>メモ（共演・プログラムなど）</label>
 					<textarea
-						className='shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none'
+						className='shadow border rounded w-full py-12 px-3 text-gray-700 leading-tight focus:outline-none'
 						onChange={(e) => setMemo(e.target.value)}
 					/>
 				</div>
