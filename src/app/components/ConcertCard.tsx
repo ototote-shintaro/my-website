@@ -25,7 +25,7 @@ const ConcertCard = ({ concert }: ConcertCardProps) => {
 					会場: {concert.venue}
 				</p>
 				<p>
-					料金: {concert.price}
+					料金: {replaceLineBreaks(concert.price)}
 				</p>
 				<p className='py-4'>
 					{replaceLineBreaks(concert.memo)}
