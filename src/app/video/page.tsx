@@ -7,6 +7,7 @@ const page = () => {
 			<title>Video</title>
 			<h1 className='text-title'>Video</h1>
 			<div className='md:grid md:grid-cols-2 md:px-[5%]'>
+				<YoutubeContent videoId='RkLXqxXuTNg' label='Shintaro Tanaka: Tracing the Veins / 田中慎太郎: 水理をたどって' />
 				<YoutubeContent videoId='h8uDkVQRhGY' label='Shintaro Tanaka: yatsure buro / 田中慎太郎: 窶風炉' />
 				<YoutubeContent videoId='QLeJ5uNi-_c' label='Kanako Fukui + Shintaro Tanaka / Improvisation Nov. 14' />
 				<YoutubeContent videoId='iI8b0GckrcQ' label='Shintaro Tanaka Winter Light Ensemble / Live at echo and cloud studio' />
