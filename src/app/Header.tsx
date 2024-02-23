@@ -38,7 +38,7 @@ const Header = () => {
 				</div>
 				<nav className={
 					isOpen
-						? 'bg-blue-100 fixed top-0 right-0 bottom-0 left-0 h-screen flex flex-col'
+						? 'bg-gray-100 fixed top-0 right-0 bottom-0 left-0 h-screen flex flex-col'
 						: 'fixed right-[-100%]'
 				}>
 					<ul className={
@@ -74,7 +74,7 @@ const Header = () => {
 								target='_blank'
 							>
 								Online Shop
-								<FontAwesomeIcon icon={faArrowUpRightFromSquare} className='h-[16px] ml-2'/>
+								<FontAwesomeIcon icon={faArrowUpRightFromSquare} className='h-[16px] ml-2' />
 							</Link>
 						</li>
 					</ul>
