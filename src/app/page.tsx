@@ -20,7 +20,7 @@ export default async function Home() {
     <main className='text-center'>
       <div className='py-6'>
         <p className='text-2xl font-bold text-center my-6'>features</p>
-        <div className='md:px-[5%] md:grid md:grid-cols-2'>
+        <div className='md:px-[6%] md:grid md:grid-cols-2'>
           <YoutubeContent videoId='iI8b0GckrcQ' label='Shintaro Tanaka Winter Light Ensemble / Live at echo and cloud studio' />
           <YoutubeContent videoId='hdodgI_VKzk' label='Shintaro Tanaka Ototote Ensemble / Live at Waseda Scott Hall' />
         </div>

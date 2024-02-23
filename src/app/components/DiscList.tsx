@@ -50,7 +50,7 @@ type ContentProps = {
 	title: string,
 }
 
-const Content = ({path, src, alt, title}: ContentProps) => {
+const Content = ({ path, src, alt, title }: ContentProps) => {
 	return (
 		<div>
 			<Link href={`discography/${path}`} className='hover:opacity-75'>
