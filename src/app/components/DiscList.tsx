@@ -8,7 +8,7 @@ const DiscList = () => {
 			path: 'winter-light-ensemble',
 			src: 'https://noliqyucceyolxirrwij.supabase.co/storage/v1/object/public/website-images/src/wle-jacket.jpg',
 			alt: 'wle-jacket',
-			title: 'Winter Light Ensemble',
+			title: '永​遠​と​一​日 / Eternity and a Day',
 		},
 		{
 			path: 'shiori',
