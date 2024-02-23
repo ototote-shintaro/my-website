@@ -5,6 +5,7 @@ import YoutubeContent from './components/YoutubeContent';
 import ArticlesList from './components/ArticlesList';
 import DiscList from './components/DiscList';
 import ContactList from './components/ContactList';
+import HeaderMenu from './components/HeaderMenu';
 
 export default async function Home() {
   const url = `${process.env.NEXT_PUBLIC_API_URL}/api/article/news`
@@ -40,7 +41,10 @@ export default async function Home() {
           <ContactList />
         </div>
       </div>
-      <div className='mt-6 mb-12 border-t'>
+      <div className='hidden md:block mt-6 border-t'>
+        <div className='pt-6'>
+          <HeaderMenu />
+        </div>
       </div>
     </main>
   )
