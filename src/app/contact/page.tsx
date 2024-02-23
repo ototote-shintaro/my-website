@@ -6,7 +6,9 @@ const page = () => {
 		<div>
 			<title>Contact</title>
 			<h1 className='text-title'>Contact</h1>
-			<ContactList />
+			<div className='pt-6'>
+				<ContactList />
+			</div>
 		</div>
 	)
 }

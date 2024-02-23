@@ -3,6 +3,7 @@ import { Noto_Serif_JP, Roboto } from 'next/font/google'
 import './globals.css'
 import Footer from './Footer'
 import Header from './Header'
+import HeaderMenu from './components/HeaderMenu'
 
 const robot = Roboto({
   subsets: ['latin'],
@@ -33,6 +34,7 @@ export default function RootLayout({
           <main className='flex-grow'>
             {children}
           </main>
+          <HeaderMenu />
           <Footer />
         </div>
       </body>

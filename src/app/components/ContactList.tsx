@@ -30,7 +30,7 @@ const ContactList = () => {
 
 	return (
 		<div>
-			<ul className='flex flex-col gap-6'>
+			<ul className='flex justify-center gap-12'>
 				{contentList.map((item, index) => (
 					<li key={index}>
 						<Content link={item.link} icon={item.icon} label={item.label} />
